@@ -4,13 +4,15 @@ header{
   font-weight: bold;
   display: flex;
   padding: auto 300px;
-
+  border-bottom: 1px solid black;
+  justify-content: space-between;
 }
 
 .logo{
   color: MediumAquamarine;
   display: flex;
   padding: 20px;
+  max-height: 60px;
 }
 
 .logo p{
@@ -21,15 +23,15 @@ header{
 
 header nav{
   display: flex;
-  padding: 10px;
   align-items: center;
-  justify-content: flex-end;
-  width: 100%;
-  padding-right: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
   color: black;
 }
 
 header nav a{
   display: inline-block;
   padding: 15px;
+  color: inherit;
+  align-items: right;
 }
