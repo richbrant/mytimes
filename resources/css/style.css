@@ -1,3 +1,8 @@
+*{
+border: 1px solid black;
+}
+
+
 header{
   font-family: Verdana;
   font-size: 14px;
@@ -43,28 +48,28 @@ header nav a{
 
 .columnlarge{
   display: flex;
-  border: 2px solid black;
   width: 630px;
   flex-direction: column;
 }
 
+
 .columnmedium{
   display: flex;
-  border: 2px solid black;
   width: 300px;
+  flex-direction: column;
 }
 
 .columnsmall{
   display: flex;
-  border: 2px solid black;
   width: 240px;
+  flex-direction: column;
 }
 
 .story{
-  border: 2px solid black;
+
 }
 
 .minorstory{
-  border: 1px solid black;
+
 
 }
