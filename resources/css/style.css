@@ -35,3 +35,36 @@ header nav a{
   color: inherit;
   align-items: right;
 }
+
+.main{
+  display: flex;
+  flex-direction: row;
+}
+
+.columnlarge{
+  display: flex;
+  border: 2px solid black;
+  width: 630px;
+  flex-direction: column;
+}
+
+.columnmedium{
+  display: flex;
+  border: 2px solid black;
+  width: 300px;
+}
+
+.columnsmall{
+  display: flex;
+  border: 2px solid black;
+  width: 240px;
+}
+
+.story{
+  border: 2px solid black;
+}
+
+.minorstory{
+  border: 1px solid black;
+
+}
