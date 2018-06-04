@@ -2,6 +2,9 @@
 
 }
 
+html{
+width: 100%
+}
 
 header{
   font-family: Verdana;
@@ -11,7 +14,17 @@ header{
   padding: auto 300px;
   border-bottom: 1px solid black;
   justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  background: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+
+
 }
+
 
 .logo{
   color: MediumAquamarine;
@@ -26,11 +39,12 @@ header{
   padding-left: 20px;
 }
 
-header nav{
+ header nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-right: 40px;
   color: black;
 }
 
@@ -46,6 +60,7 @@ header nav a{
   flex-direction: row;
   width:100%;
   justify-content:center;
+  margin-top: 120px;
 }
 
 
@@ -148,4 +163,12 @@ p.story {
   border-bottom: 1px solid black;
   align-content: center;
   padding: 10px;
+}
+
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
 }
