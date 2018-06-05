@@ -106,6 +106,12 @@ p .story {
 
 }
 
+.tunaimg span{
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+
 .autumnimg{
   background-image: url("../images/autumn.png");
   display: flex;
@@ -115,6 +121,11 @@ p .story {
   color: white;
   height: 300px;
   width: 299px;
+}
+
+.autumnimg span{
+  text-align: center;
+  margin: 90px 50px;
 }
 
 .cameraimg{
@@ -128,6 +139,11 @@ p .story {
   width: 299px;
 }
 
+.cameraimg span{
+  text-align: center;
+  margin: 90px 10px;
+}
+
 .catimg{
   background-image: url("../images/cat.png");
   display: flex;
@@ -137,6 +153,11 @@ p .story {
   color: white;
   height: 300px;
   width: 299px;
+}
+
+.catimg span{
+  text-align: center;
+  margin: 120px 0px;
 }
 
 .picturestory{
@@ -183,6 +204,10 @@ footer nav a{
   padding: 15px;
   color: black;
   padding: 0 15px;
+}
+
+footer nav{
+  margin-left: 30px;
 }
 
 .navmytimes{
